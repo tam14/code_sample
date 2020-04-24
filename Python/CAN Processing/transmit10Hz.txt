@@ -1,0 +1,105 @@
+bus, 0x649, 8
+ 0,  8, Coolant.Temperature
+ 8,  8, Engine.Oil.Temperature
+16,  8, Fuel.Temperature
+24,  8, Ambient.Temperature.Sensor
+32,  8, Airbox.Temperature
+40,  8, ECU.Battery.Voltage
+48, 16, Fuel.Used
+bus, 0x64A, 8
+ 0, 16, Exhaust.Temperature
+16, 16, Engine.Load.Average
+32, 16, Engine.Speed.Limit
+48, 16, Ambient.Pressure
+bus, 0x64B, 8
+ 0,  8, Ignition.Cylinder 1.Trim.Knock
+ 8,  8, Ignition.Cylinder 2.Trim.Knock
+16,  8, Ignition.Cylinder 3.Trim.Knock
+24,  8, Ignition.Cylinder 4.Trim.Knock
+32,  8, Ignition.Cylinder 5.Trim.Knock
+40,  8, Ignition.Cylinder 6.Trim.Knock
+48,  8, Ignition.Cylinder 7.Trim.Knock
+56,  8, Ignition.Cylinder 8.Trim.Knock
+bus, 0x64C, 8
+ 0, 16, Engine.Run Time
+16, 16, ECU.Uptime
+32,  8, Warning.Source.AsInteger
+40,	1,     Coolant.Temperature.Warning.AsInteger
+41, 1,    Coolant.Pressure.Warning.AsInteger
+42, 1,    Engine.Speed.Warning.AsInteger
+43, 1,    Engine.Oil.Temperature.Warning.AsInteger
+44, 1,    Engine.Oil.Pressure.Warning.AsInteger
+46, 1,    Engine.Crankcase.Pressure.Warning.AsInteger
+47, 1,    Fuel.Pressure.Warning.AsInteger
+48, 1,    Knock.Warning.AsInteger
+bus, 0x64D, 8
+ 0,  4, Engine.State.AsInteger
+ 4,  4, Fuel.Pump.State.AsInteger
+ 8,  4, Anti Lag.State.AsInteger
+12,  4, Launch.State.AsInteger
+16,  4, Boost.Aim.State.AsInteger
+24,  4, Engine.Overrun.State.AsInteger
+28,  4, Fuel.State.AsInteger
+36,  4, Knock.State.AsInteger
+40,  4, Throttle.Aim.State.AsInteger
+44,  4, Fuel.Closed Loop.State.AsInteger
+48,  4, Engine.Speed.Reference.State.AsInteger
+52,  4, Gear.Estimate.Gear As Integer
+56,  8, Engine.Speed.Limit.State.AsInteger
+bus, 0x64E, 8
+0,  4, Anti Lag.Diagnostic.AsInteger
+4,  4, Launch.Diagnostic.AsInteger
+8,  4, Boost.Control.Diagnostic.AsInteger
+12,  4, Fuel.Cut.State.AsInteger
+16,  4, Fuel.Closed Loop.Diagnostic.AsInteger
+24, 1,    Engine.Oil.Pressure.Low Switch eq Engine.Oil.Pressure.Low Switch.On
+25, 1,    Driver.Pit Switch eq Driver.Pit Switch.On
+26, 1,    Driver.Launch Switch eq Driver.Launch Switch.On
+27, 1,    Driver.Traction Switch eq Driver.Traction Switch.On
+28, 1,    Brake.State eq Brake.State.On
+29, 1,    Driver.Anti Lag Switch eq Driver.Anti Lag Switch.On
+30, 1,    Engine.Run Switch eq Engine.Run Switch.On
+31, 1,    PDM Switches.Neutral Switch eq PDM Switches.Neutral Switch.B
+bus, 0x64F, 8
+ 0, 16, Engine.Run Time.Total
+16,  8, Fuel.Closed Loop.Control.Bank 1.Trim
+24,  8, Fuel.Closed Loop.Control.Bank 2.Trim
+32,  8, Transmission.Temperature
+40,  8, Fuel.Tank.Level
+56,  8, /* CAN template version number */ 0x03
+bus, 0x650, 8
+0,  8, Driver.Rotary Switch 1.AsInteger
+8,  8, Driver.Rotary Switch 2.AsInteger
+16,  8, Driver.Rotary Switch 3.AsInteger
+24,  8, Driver.Rotary Switch 4.AsInteger
+32,  8, Driver.Rotary Switch 5.AsInteger
+40,  8, Driver.Rotary Switch 6.AsInteger
+56, 1,    Driver.Switch 1 eq Driver.Switch 1.On
+57, 1,   Driver.Switch 2 eq Driver.Switch 2.On
+58, 1,    Driver.Switch 3 eq Driver.Switch 3.On
+59, 1,    Driver.Switch 4 eq Driver.Switch 4.On
+60, 1,    Driver.Switch 5 eq Driver.Switch 5.On
+61, 1,    Driver.Switch 6 eq Driver.Switch 6.On
+62, 1,    Driver.Switch 7 eq Driver.Switch 7.On
+63, 1,    Driver.Switch 8 eq Driver.Switch 8.On
+bus, 0x651, 8
+ 0,  8, Exhaust.Lambda
+16,  8, Exhaust.Lambda.Bank 1
+24,  8, Exhaust.Lambda.Bank 2
+bus, 0x65A, 8
+32,  8, /* CAN template version number */ 0x03
+bus, 0x65B, 8
+ 0, 16, Lap.Time
+16, 16, Lap.Time.Running
+32, 16, Lap.Number
+48, 16, Lap.Distance
+bus, 0x65C, 8
+ 0, 16, Differential.Temperature
+bus, 0x65E, 8
+0, 16, 		Exhaust.Pressure.Bank 1.Sensor
+16, 16, 		Exhaust.Pressure.Bank 2.Sensor
+32, 16, 		Engine.Crankcase.Pressure
+bus, 0x65F, 8
+0, 16, Knock.Threshold 
+16, 16, Root.Logging.System 1.Used
+32, 16, Vehicle.Speed.Limit.Pit

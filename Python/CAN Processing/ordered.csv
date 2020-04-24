@@ -1,0 +1,162 @@
+0x118, , 0, 8, 50, Engine.Speed
+0x118, , 8, 8, 50, Throttle.Position
+0x118, , 16, 8, 50, Vehicle.Speed
+0x118, , 24, 8, 50, Coolant.Temperature
+0x118, , 32, 8, 50, Engine.Oil.Temperature
+0x118, , 40, 8, 50, Fuel.Temperature
+0x118, , 48, 8, 50, Transmission.Temperature
+0x118, , 56, 8, 50, Differential.Temperature
+0x119, , 0, 8, 50, IgCut State
+0x640, , 0, 16, 100,   Engine.Speed 
+0x640, , 16, 16, 100,   Inlet.Manifold.Pressure 
+0x640, , 32, 16, 100,   Inlet.Air.Temperature  
+0x640, , 48, 16, 100,   Throttle.Position 
+0x641, , 0, 16, 100,   Fuel.Volume 
+0x641, , 16, 16, 100,   Fuel.Mixture Aim 
+0x641, , 32, 16, 100,   Fuel.Pressure.Sensor 
+0x641, , 48,  8, 100,   Fuel.Injector.Primary.Duty Cycle 
+0x641, , 56,  8, 100,   Engine.Efficiency 
+0x642, , 0, 16, 100,   Throttle.Pedal 
+0x642, , 16, 16, 100,   Engine.Load 
+0x642, , 32, 16, 100,   Ignition.Timing 
+0x642, , 48, 16, 100,   Fuel.Timing.Primary 
+0x643, , 0,  8, 100,   Ignition Cylinder 1.Knock.Level
+0x643, , 8,  8, 100,   Ignition Cylinder 2.Knock.Level
+0x643, , 16,  8, 100,   Ignition Cylinder 3.Knock.Level
+0x643, , 24,  8, 100,   Ignition Cylinder 4.Knock.Level
+0x643, , 32,  8, 100,   Ignition Cylinder 5.Knock.Level
+0x643, , 40,  8, 100,   Ignition Cylinder 6.Knock.Level
+0x643, , 48,  8, 100,   Ignition Cylinder 7.Knock.Level
+0x643, , 56,  8, 100,   Ignition Cylinder 8.Knock.Level
+0x644, ,  0,  8, 50, Ignition.Output.Cut Count
+0x644, ,  8,  8, 50, Fuel.Output.Cut Count
+0x644, , 16,  8, 50, Ignition.Output.Cut Average
+0x644, , 24,  8, 50, Fuel.Output.Cut Average
+0x644, , 32,  8, 50, Fuel.Cylinder 1.Primary.Output.Pulse Width
+0x644, , 40,  4, 50, Ignition.Timing.State.AsInteger
+0x644, , 44,  4, 50, Ignition.Cut.State.AsInteger
+0x644, , 48, 16, 50, Engine.Oil.Pressure
+0x645, , 0, 16, 50,  Boost.Pressure
+0x645, , 16, 16, 50, Boost.Aim
+0x645, , 48,  8, 50, Boost.Actuator.Normal.Output.Duty Cycle
+0x645, , 56,  8, 50, Gear.Lever.Force.Sensor
+0x646, , 0, 16, 50,  Inlet.Camshaft.Aim
+0x646, , 16, 16, 50, Inlet.Camshaft.Bank 1.Position
+0x646, , 32, 16, 50, Inlet.Camshaft.Bank 2.Position
+0x646, , 48,  8, 50, Inlet.Camshaft.Bank 1.Actuator.Output.Duty Cycle
+0x646, , 56,  8, 50, Inlet.Camshaft.Bank 2.Actuator.Output.Duty Cycle
+0x647, , 0, 16, 50,  Exhaust.Camshaft.Aim
+0x647, , 16, 16, 50, Exhaust.Camshaft.Bank 1.Position
+0x647, , 32, 16, 50, Exhaust.Camshaft.Bank 2.Position
+0x647, , 48,  8, 50, Exhaust.Camshaft.Bank 1.Actuator.Output.Duty Cycle
+0x647, , 56,  8, 50, Exhaust.Camshaft.Bank 2.Actuator.Output.Duty Cycle
+0x648, ,  0, 16, 50, Wheel Speed.Front.Left
+0x648, , 16, 16, 50, Wheel Speed.Front.Right
+0x648, , 32, 16, 50, Wheel Speed.Rear.Left
+0x648, , 48, 16, 50, Wheel Speed.Rear.Right
+0x649, ,  0,  8, 10, Coolant.Temperature
+0x649, ,  8,  8, 10, Engine.Oil.Temperature
+0x649, , 16,  8, 10, Fuel.Temperature
+0x649, , 24,  8, 10, Ambient.Temperature.Sensor
+0x649, , 32,  8, 10, Airbox.Temperature
+0x649, , 40,  8, 10, ECU.Battery.Voltage
+0x649, , 48, 16, 10, Fuel.Used
+0x64a, ,  0, 16, 10, Exhaust.Temperature
+0x64a, , 16, 16, 10, Engine.Load.Average
+0x64a, , 32, 16, 10, Engine.Speed.Limit
+0x64a, , 48, 16, 10, Ambient.Pressure
+0x64b, ,  0,  8, 10, Ignition.Cylinder 1.Trim.Knock
+0x64b, ,  8,  8, 10, Ignition.Cylinder 2.Trim.Knock
+0x64b, , 16,  8, 10, Ignition.Cylinder 3.Trim.Knock
+0x64b, , 24,  8, 10, Ignition.Cylinder 4.Trim.Knock
+0x64b, , 32,  8, 10, Ignition.Cylinder 5.Trim.Knock
+0x64b, , 40,  8, 10, Ignition.Cylinder 6.Trim.Knock
+0x64b, , 48,  8, 10, Ignition.Cylinder 7.Trim.Knock
+0x64b, , 56,  8, 10, Ignition.Cylinder 8.Trim.Knock
+0x64c, ,  0, 16, 10, Engine.Run Time
+0x64c, , 16, 16, 10, ECU.Uptime
+0x64c, , 32,  8, 10, Warning.Source.AsInteger
+0x64c, , 40, 1, 10, Coolant.Temperature.Warning.AsInteger
+0x64c, , 41, 1, 10,    Coolant.Pressure.Warning.AsInteger
+0x64c, , 42, 1, 10,    Engine.Speed.Warning.AsInteger
+0x64c, , 43, 1, 10,    Engine.Oil.Temperature.Warning.AsInteger
+0x64c, , 44, 1, 10,    Engine.Oil.Pressure.Warning.AsInteger
+0x64c, , 46, 1, 10,    Engine.Crankcase.Pressure.Warning.AsInteger
+0x64c, , 47, 1, 10,    Fuel.Pressure.Warning.AsInteger
+0x64c, , 48, 1, 10,    Knock.Warning.AsInteger
+0x64d, ,  0,  4, 10, Engine.State.AsInteger
+0x64d, ,  4,  4, 10, Fuel.Pump.State.AsInteger
+0x64d, ,  8,  4, 10, Anti Lag.State.AsInteger
+0x64d, , 12,  4, 10, Launch.State.AsInteger
+0x64d, , 16,  4, 10, Boost.Aim.State.AsInteger
+0x64d, , 24,  4, 10, Engine.Overrun.State.AsInteger
+0x64d, , 28,  4, 10, Fuel.State.AsInteger
+0x64d, , 36,  4, 10, Knock.State.AsInteger
+0x64d, , 40,  4, 10, Throttle.Aim.State.AsInteger
+0x64d, , 44,  4, 10, Fuel.Closed Loop.State.AsInteger
+0x64d, , 48,  4, 10, Engine.Speed.Reference.State.AsInteger
+0x64d, , 52,  4, 10, Gear.Estimate.Gear As Integer
+0x64d, , 56,  8, 10, Engine.Speed.Limit.State.AsInteger
+0x64e, , 0,  4, 10, Anti Lag.Diagnostic.AsInteger
+0x64e, , 4,  4, 10, Launch.Diagnostic.AsInteger
+0x64e, , 8,  4, 10, Boost.Control.Diagnostic.AsInteger
+0x64e, , 12,  4, 10, Fuel.Cut.State.AsInteger
+0x64e, , 16,  4, 10, Fuel.Closed Loop.Diagnostic.AsInteger
+0x64e, , 24, 1, 10,    Engine.Oil.Pressure.Low Switch eq Engine.Oil.Pressure.Low Switch.On
+0x64e, , 25, 1, 10,    Driver.Pit Switch eq Driver.Pit Switch.On
+0x64e, , 26, 1, 10,    Driver.Launch Switch eq Driver.Launch Switch.On
+0x64e, , 27, 1, 10,    Driver.Traction Switch eq Driver.Traction Switch.On
+0x64e, , 28, 1, 10,    Brake.State eq Brake.State.On
+0x64e, , 29, 1, 10,    Driver.Anti Lag Switch eq Driver.Anti Lag Switch.On
+0x64e, , 30, 1, 10,    Engine.Run Switch eq Engine.Run Switch.On
+0x64e, , 31, 1, 10,    PDM Switches.Neutral Switch eq PDM Switches.Neutral Switch.B
+0x64f, ,  0, 16, 10, Engine.Run Time.Total
+0x64f, , 16,  8, 10, Fuel.Closed Loop.Control.Bank 1.Trim
+0x64f, , 24,  8, 10, Fuel.Closed Loop.Control.Bank 2.Trim
+0x64f, , 32,  8, 10, Transmission.Temperature
+0x64f, , 40,  8, 10, Fuel.Tank.Level
+0x64f, , 56,  8, 10, /* CAN template version number */ 0x03
+0x650, , 0,  8, 10, Driver.Rotary Switch 1.AsInteger
+0x650, , 8,  8, 10, Driver.Rotary Switch 2.AsInteger
+0x650, , 16,  8, 10, Driver.Rotary Switch 3.AsInteger
+0x650, , 24,  8, 10, Driver.Rotary Switch 4.AsInteger
+0x650, , 32,  8, 10, Driver.Rotary Switch 5.AsInteger
+0x650, , 40,  8, 10, Driver.Rotary Switch 6.AsInteger
+0x650, , 56, 1, 10,    Driver.Switch 1 eq Driver.Switch 1.On
+0x650, , 57, 1, 10,   Driver.Switch 2 eq Driver.Switch 2.On
+0x650, , 58, 1, 10,    Driver.Switch 3 eq Driver.Switch 3.On
+0x650, , 59, 1, 10,    Driver.Switch 4 eq Driver.Switch 4.On
+0x650, , 60, 1, 10,    Driver.Switch 5 eq Driver.Switch 5.On
+0x650, , 61, 1, 10,    Driver.Switch 6 eq Driver.Switch 6.On
+0x650, , 62, 1, 10,    Driver.Switch 7 eq Driver.Switch 7.On
+0x650, , 63, 1, 10,    Driver.Switch 8 eq Driver.Switch 8.On
+0x651, ,  0,  8, 10, Exhaust.Lambda
+0x651, , 16,  8, 10, Exhaust.Lambda.Bank 1
+0x651, , 24,  8, 10, Exhaust.Lambda.Bank 2
+0x652, , 0, 16, 100,   Fuel.Injector.Secondary.Contribution
+0x652, , 16, 16, 100,   Fuel.Timing.Secondary
+0x652, , 32,  8, 100,   Fuel.Injector.Secondary.Duty Cycle
+0x655, , 0, 16, 100,   Brake.Pressure.Front.Sensor
+0x655, , 16, 16, 100,   Brake.Pressure.Rear.Sensor
+0x655, , 32, 16, 100,   Coolant.Pressure
+0x655, , 48, 16, 100,   Steering.Pressure
+0x656, , 0, 16, 100,   Steering.Angle
+0x656, , 16, 16, 100,   Inlet.Mass Flow
+0x656, , 32, 16, 100,   Airbox.Mass Flow
+0x656, , 48, 16, 100,   Fuel.Flow
+0x657, , 0, 16, 100,   Fuel.Injector.Primary.Differential Pressure
+0x657, , 16, 16, 100,   Fuel.Injector.Secondary.Differential Pressure
+0x657, , 32, 16, 100,   Gear.Input.Shaft Speed
+0x657, , 48, 16, 100,   Gear.Output.Shaft Speed 
+0x65a, , 32,  8, 10, /* CAN template version number */ 0x03
+0x65b, ,  0, 16, 10, Lap.Time
+0x65b, , 16, 16, 10, Lap.Time.Running
+0x65b, , 32, 16, 10, Lap.Number
+0x65b, , 48, 16, 10, Lap.Distance
+0x65c, ,  0, 16, 10, Differential.Temperature
+0x65e, , 0, 16, 10, 		Exhaust.Pressure.Bank 1.Sensor
+0x65e, , 16, 16, 10, 		Exhaust.Pressure.Bank 2.Sensor
+0x65e, , 32, 16, 10, 		Engine.Crankcase.Pressure
+0x65f, , 0, 16, 10, Knock.Threshold 
+0x65f, , 16, 16, 10, Root.Logging.System 1.Used
+0x65f, , 32, 16, 10, Vehicle.Speed.Limit.Pit

@@ -1,0 +1,44 @@
+bus, 0x640, 8 
+0, 16,   Engine.Speed 
+16, 16,   Inlet.Manifold.Pressure 
+32, 16,   Inlet.Air.Temperature  
+48, 16,   Throttle.Position 
+bus, 0x641, 8 
+0, 16,   Fuel.Volume 
+16, 16,   Fuel.Mixture Aim 
+32, 16,   Fuel.Pressure.Sensor 
+48,  8,   Fuel.Injector.Primary.Duty Cycle 
+56,  8,   Engine.Efficiency 
+bus, 0x642, 8 
+0, 16,   Throttle.Pedal 
+16, 16,   Engine.Load 
+32, 16,   Ignition.Timing 
+48, 16,   Fuel.Timing.Primary 
+bus, 0x643, 8 
+0,  8,   Ignition Cylinder 1.Knock.Level
+8,  8,   Ignition Cylinder 2.Knock.Level
+16,  8,   Ignition Cylinder 3.Knock.Level
+24,  8,   Ignition Cylinder 4.Knock.Level
+32,  8,   Ignition Cylinder 5.Knock.Level
+40,  8,   Ignition Cylinder 6.Knock.Level
+48,  8,   Ignition Cylinder 7.Knock.Level
+56,  8,   Ignition Cylinder 8.Knock.Level
+bus, 0x652, 8 
+0, 16,   Fuel.Injector.Secondary.Contribution
+16, 16,   Fuel.Timing.Secondary
+32,  8,   Fuel.Injector.Secondary.Duty Cycle
+bus, 0x655, 8 
+0, 16,   Brake.Pressure.Front.Sensor
+16, 16,   Brake.Pressure.Rear.Sensor
+32, 16,   Coolant.Pressure
+48, 16,   Steering.Pressure
+bus, 0x656, 8 
+0, 16,   Steering.Angle
+16, 16,   Inlet.Mass Flow
+32, 16,   Airbox.Mass Flow
+48, 16,   Fuel.Flow
+bus, 0x657, 8 
+0, 16,   Fuel.Injector.Primary.Differential Pressure
+16, 16,   Fuel.Injector.Secondary.Differential Pressure
+32, 16,   Gear.Input.Shaft Speed
+48, 16,   Gear.Output.Shaft Speed 

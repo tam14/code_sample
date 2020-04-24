@@ -1,0 +1,31 @@
+bus, 0x644, 8
+ 0,  8, Ignition.Output.Cut Count
+ 8,  8, Fuel.Output.Cut Count
+16,  8, Ignition.Output.Cut Average
+24,  8, Fuel.Output.Cut Average
+32,  8, Fuel.Cylinder 1.Primary.Output.Pulse Width
+40,  4, Ignition.Timing.State.AsInteger
+44,  4, Ignition.Cut.State.AsInteger
+48, 16, Engine.Oil.Pressure
+bus, 0x645, 8
+0, 16,  Boost.Pressure
+16, 16, Boost.Aim
+48,  8, Boost.Actuator.Normal.Output.Duty Cycle
+56,  8, Gear.Lever.Force.Sensor
+bus, 0x646, 8
+0, 16,  Inlet.Camshaft.Aim
+16, 16, Inlet.Camshaft.Bank 1.Position
+32, 16, Inlet.Camshaft.Bank 2.Position
+48,  8, Inlet.Camshaft.Bank 1.Actuator.Output.Duty Cycle
+56,  8, Inlet.Camshaft.Bank 2.Actuator.Output.Duty Cycle
+bus, 0x647, 8
+0, 16,  Exhaust.Camshaft.Aim
+16, 16, Exhaust.Camshaft.Bank 1.Position
+32, 16, Exhaust.Camshaft.Bank 2.Position
+48,  8, Exhaust.Camshaft.Bank 1.Actuator.Output.Duty Cycle
+56,  8, Exhaust.Camshaft.Bank 2.Actuator.Output.Duty Cycle
+bus, 0x648, 8
+ 0, 16, Wheel Speed.Front.Left
+16, 16, Wheel Speed.Front.Right
+32, 16, Wheel Speed.Rear.Left
+48, 16, Wheel Speed.Rear.Right

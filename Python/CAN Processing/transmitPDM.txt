@@ -1,0 +1,24 @@
+bus, 0x118, 8
+0, 8, Engine.Speed
+8, 8, Throttle.Position
+16, 8, Vehicle.Speed
+24, 8, Coolant.Temperature
+32, 8, Engine.Oil.Temperature
+40, 8, Fuel.Temperature
+48, 8, Transmission.Temperature
+56, 8, Differential.Temperature
+bus, 0x119, 8
+0, 8, Fuel.Pressure
+16, 16, Steering.Angle
+32, 1, Engine.State eq Engine.State.Run
+33, 1, Warning.Source neq Warning.Source.None
+34, 1, Brake.State eq Brake.State.On
+35, 1, PDM Switches.Neutral Switch eq PDM Switches.Neutral Switch.B
+36, 1, Clutch.Switch eq Clutch.Switch.On
+37, 1, Clutch.State eq Clutch.State.Disengaged
+38, 1, Driver.Pit Switch eq Driver.Pit Switch.On
+39, 1, Engine.Run Switch eq Engine.Run Switch.On
+40, 1, Driver.Switch 1 eq Driver.Switch 1.On
+41, 1, Driver.Switch 2 eq Driver.Switch 2.On
+48, 8, Driver.Rotary Switch 1.AsInteger
+56, 8, Driver.Rotary Switch 2.AsInteger
